@@ -10,7 +10,7 @@
     "builder": {
       "type": "swc",
       "options": {
-        "filenames": ["server", "shared"],
+        "filenames": ["server"],
         "stripLeadingPaths": false
       }
     }
