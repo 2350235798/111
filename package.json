@@ -32,6 +32,9 @@
     "prepare": "chmod +x .githooks/pre-commit 2>/dev/null; git config core.hooksPath .githooks 2>/dev/null || true"
   },
   "dependencies": {
+    "@lark-apaas/nestjs-logger": "^1.0.0",
+    "@vendia/serverless-express": "^4.12.6",
+    "postgres": "^3.4.4",
     "@lark-apaas/fullstack-nestjs-core": "^1.1.60",
     "@nestjs/axios": "^4.0.1",
     "@nestjs/cache-manager": "^3.1.3",
