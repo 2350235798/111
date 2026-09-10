@@ -1,6 +1,6 @@
 {
-  "buildCommand": "node deploy/build.js",
-  "outputDirectory": "dist/client",
+  "buildCommand": "npm run build",
+  "outputDirectory": "client/dist",
   "installCommand": "npm install --legacy-peer-deps",
   "functions": {
     "api/index.js": {
@@ -9,6 +9,6 @@
   },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api" },
-    { "source": "/((?!assets/|favicon).*)", "destination": "/index.html" }
+    { "source": "/((?!assets|/favicon).*)", "destination": "/index.html" }
   ]
 }
