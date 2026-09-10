@@ -6,7 +6,7 @@
     "preserveWatchOutput": true,
     "paths": {
       "@server/*": ["server/*"],
-      "@shared/*": ["shared/*"],
+      "@shared/*": ["server/common/interfaces/*"],
     }
   },
   "watchOptions": {
